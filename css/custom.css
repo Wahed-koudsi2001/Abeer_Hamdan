@@ -4453,8 +4453,10 @@ header.main-header .header-sticky.active {
 	}
 
 	.btn-default {
-		padding: 14px 42px 14px 14px;
-	}
+        padding: 14px 42px 14px 14px;
+        width: 100%;
+        text-align: center;
+    }
 
 	.btn-default::before {
 		right: 14px;
@@ -4492,7 +4494,7 @@ header.main-header .header-sticky.active {
 	}
 
 	.hero {
-		padding: 80px 0;
+		padding: 180px 0;
 	}
 
 	.hero.hero-slider-layout .hero-slide {
@@ -5661,10 +5663,6 @@ header.main-header .header-sticky.active {
 
 	.faq-accordion .accordion-item .accordion-body {
 		padding: 0;
-	}
-
-	.section-row .section-title {
-		text-align: center;
 	}
 
 	.team-contact-circle {
