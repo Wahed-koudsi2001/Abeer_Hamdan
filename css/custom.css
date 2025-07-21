@@ -4494,7 +4494,7 @@ header.main-header .header-sticky.active {
 	}
 
 	.hero {
-		padding: 180px 0;
+		padding: 100px 0;
 	}
 
 	.hero.hero-slider-layout .hero-slide {
@@ -5467,7 +5467,7 @@ header.main-header .header-sticky.active {
 	}
 
 	.hero-footer ul {
-		justify-content: center;
+		justify-content: space-between;
 		gap: 20px 25px;
 	}
 	.nav-link span {
