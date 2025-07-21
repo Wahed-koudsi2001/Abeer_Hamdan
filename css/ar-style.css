@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap");
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+a,
+p,
+li {
+    font-family: "Tajawal", sans-serif !important;
+}
+
+.about-image-circle a img {
+    max-width: 146px;
+}
+.section-title h3 {
+    padding-right: 18px;
+    padding-left: 0;
+}
+.section-title h3::before {
+    left: initial;
+    right: 0;
+}
+.hero-footer ul li img {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.about-body-item .icon-box {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.contact-us-now-text p i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.scrolling-ticker-box .scrolling-content span img {
+    margin-right: 0;
+    margin-left: 40px;
+}
+.scrolling-ticker {
+    direction: rtl;
+    overflow: hidden;
+}
+.scrolling-content {
+    flex-shrink: 0;
+    display: flex;
+    gap: var(--gap);
+    min-width: 100%;
+    animation: scroll-rtl 80s linear infinite;
+}
+.about-us-images {
+    position: relative;
+    padding: 20px 240px 165px 30px;
+    margin-right: 0;
+    margin-left: 35px;
+}
+.our-approach-image {
+    margin-right: 40px;
+    margin-left: 0;
+}
+.what-we-item .icon-box {
+    margin-right: 0;
+    margin-left: 20px;
+}
+@keyframes scroll-rtl {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+.why-choose-author-image {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.why-choose-author-content {
+    margin-left: 30px;
+    margin-right: 0;
+}
+.skills-progress-bar .skill-data .skill-no {
+    margin-right: 20px;
+    margin-left: 0;
+}
+.work-counter-item-header .icon-box {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.work-step-item .icon-box {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.accordion-item .accordion-body {
+    padding-right: 0;
+    padding-left: 35px;
+}
+.faq-accordion .accordion-header .accordion-button {
+    padding-right: 0;
+    padding-left: 40px;
+}
+.faq-accordion .accordion-item .accordion-button::after,
+.faq-accordion .accordion-item .accordion-button.collapsed::after {
+    right: initial;
+    left: 5px;
+}
+.client-logo {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+
+    border-left: 1px solid var(--divider-color);
+    margin-left: 30px;
+    padding-left: 30px;
+}
+.client-review-box {
+    gap: 30px;
+}
+.satisfy-client-image:first-child {
+    margin-left: -14px;
+}
+.footer-go-to-top-btn a i {
+    margin-left: 0;
+    margin-right: 10px;
+}
+.about-footer ul li {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    float: right;
+    padding-left: var(--bs-breadcrumb-item-padding-x);
+    padding-right: var(--bs-breadcrumb-item-padding-x);
+    color: var(--bs-breadcrumb-divider-color);
+    content: var(--bs-breadcrumb-divider, "/");
+}
+.what-we-do-body ul li {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.what-we-do-body ul li::before {
+    left: initial;
+    right: 0;
+}
+.opportunities-body ul li {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.opportunities-body ul li::before {
+    left: initial;
+    right: 0;
+}
+.what-we-do-image {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.company-experience {
+    left: initial;
+    right: 30px;
+}
+.skills-progress-bar .skill-progress .count-bar {
+    right: 0;
+    left: initial;
+}
+.nav-link img {
+    margin-right: 12px;
+    margin-left: 0;
+}
+.faq-accordion .accordion-header .accordion-button {
+    text-align: right;
+}
+.service-catagery-list ul li a {
+    padding-right: 0;
+    padding-left: 30px;
+}
+.service-entry-counter-box {
+    padding: 50px 40px 50px 70px;
+}
+.service-entry ul li {
+    padding-left: 0;
+    padding-right: 20px;
+}
+.service-entry ul li::before {
+    left: initial;
+    right: 0;
+}
+.service-process-step-body .icon-box {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.sidebar-cta-content ul li a i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.main-menu ul li.submenu > a:after {
+    margin-left: 0;
+    margin-right: 8px;
+}
+.main-menu ul ul {
+    left: initial;
+    right: 0;
+    text-align: right;
+}
+.video-gallery-image a::after {
+    right: initial;
+}
+@media only screen and (max-width: 991px) {
+    .about-body-item .icon-box {
+        margin-left: 10px;
+    }
+    .scrolling-ticker-box .scrolling-content span img {
+        margin-left: 30px;
+    }
+    .work-counter-item-header .icon-box {
+        margin: 0 0 10px 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .about-body-item .icon-box {
+        margin-left: 5px;
+    }
+    .scrolling-ticker-box .scrolling-content span img {
+        margin-left: 20px;
+    }
+    .work-step-item .icon-box {
+        margin-left: 15px;
+    }
+    .client-review-box {
+        gap: 15px;
+    }
+    .footer-go-to-top-btn a i {
+        margin-right: 5px;
+    }
+    .our-approach-image {
+        margin: auto;
+    }
+    .what-we-item .icon-box {
+        margin-left: 10px;
+    }
+    .what-we-do-image {
+        margin-left: 0;
+    }
+    .company-experience {
+        right: 20px;
+    }
+    .nav-link img {
+        margin-right: 10px;
+    }
+    .about-us-images {
+        padding: 15px 100px 130px 20px;
+    }
+    .about-image-circle a img {
+        max-width: 85px;
+        min-width: 85px;
+    }
+    .about-image-2 {
+        max-width: 170px;
+        bottom: 30px;
+        right: 20px;
+    }
+    .our-opportunities-box {
+        margin-bottom: 0;
+    }
+    .service-entry-counter-box {
+        padding: 50px 30px 50px 50px;
+    }
+    .service-entry ul li {
+        padding-right: 18px;
+    }
+    .service-process-step-body .icon-box {
+        margin-left: 10px;
+    }
+    .slicknav_arrow:after {
+        margin-left: 0;
+        right: 82px;
+    }
+}
