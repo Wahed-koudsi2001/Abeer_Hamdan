@@ -539,10 +539,6 @@ header.main-header {
 	-o-transition: 0.3s linear;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	border-bottom: 1px solid var(--accent-color);
-	opacity: 0;
-}
-header.main-header.active {
-	opacity: 1;
 }
 
 header.main-header .header-sticky {
@@ -811,8 +807,11 @@ header.main-header .header-sticky.active {
 	background: url(../images/hero-bg.png) no-repeat center center/cover;
 	padding: 100px 0;
 	height: 100vh;
+	z-index: 999;
 }
-
+.page-header-z-2{
+	z-index: 999;
+}
 .hero.hero-slider-layout {
 	background: none;
 	padding: 0;
@@ -2326,7 +2325,21 @@ header.main-header .header-sticky.active {
 	background-size: cover;
 	padding: 200px 0;
 }
-
+.page-header-service-1 {
+	background: url("../images/service-1.webp") no-repeat center center;
+}
+.page-header-service-2 {
+	background: url("../images/service-2.webp") no-repeat center center;
+}
+.page-header-service-3 {
+	background: url("../images/service-3.webp") no-repeat center center;
+}
+.page-header-services {
+	background: url("../images/services-bg.webp") no-repeat center center;
+}
+.page-header-blog {
+	background: url("../images/blog-bg.webp") no-repeat center center;
+}
 .page-header::before {
 	content: "";
 	display: block;
@@ -4453,10 +4466,10 @@ header.main-header .header-sticky.active {
 	}
 
 	.btn-default {
-        padding: 14px 42px 14px 14px;
-        width: 100%;
-        text-align: center;
-    }
+		padding: 14px 42px 14px 14px;
+		width: 100%;
+		text-align: center;
+	}
 
 	.btn-default::before {
 		right: 14px;
