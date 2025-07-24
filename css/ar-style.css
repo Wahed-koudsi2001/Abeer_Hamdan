@@ -278,4 +278,7 @@ li {
         margin-left: 0;
         right: 82px;
     }
+    .hero-footer ul li img{
+        margin: 0 0 10px 0;
+    }
 }

@@ -572,6 +572,7 @@ header.main-header .header-sticky.active {
 .navbar-brand {
 	padding: 0;
 	margin: 0;
+	width: 100px;
 }
 
 .main-menu .nav-menu-wrapper {
@@ -805,11 +806,11 @@ header.main-header .header-sticky.active {
 .hero {
 	position: relative;
 	background: url(../images/hero-bg.png) no-repeat center center/cover;
-	padding: 100px 0;
+	padding: 80px 0;
 	height: 100vh;
 	z-index: 999;
 }
-.page-header-z-2{
+.page-header-z-2 {
 	z-index: 999;
 }
 .hero.hero-slider-layout {
@@ -972,7 +973,9 @@ header.main-header .header-sticky.active {
 	padding: 20px 240px 165px 30px;
 	margin-right: 35px;
 }
-
+.about-us-content .section-title h2 {
+	font-size: 40px;
+}
 .about-image-1 {
 	transform: rotate(-10deg);
 }
@@ -1632,7 +1635,6 @@ header.main-header .header-sticky.active {
 .accordion-item .accordion-body p:last-child {
 	margin-bottom: 0;
 }
-
 /************************************/
 /***       11. Our Team css       ***/
 /************************************/
@@ -2076,6 +2078,7 @@ header.main-header .header-sticky.active {
 
 .facility-item {
 	width: calc(16.66% - 33.33px);
+	text-align: center;
 }
 
 .facility-item .icon-box {
@@ -2339,6 +2342,9 @@ header.main-header .header-sticky.active {
 }
 .page-header-blog {
 	background: url("../images/blog-bg.webp") no-repeat center center;
+}
+.page-header-contact {
+	background: url("../images/contact-bg.webp") no-repeat center center;
 }
 .page-header::before {
 	content: "";
@@ -4248,6 +4254,7 @@ header.main-header .header-sticky.active {
 .contact-us-form {
 	width: 54%;
 	padding: 80px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .contact-form .form-control {
@@ -4303,6 +4310,7 @@ header.main-header .header-sticky.active {
 	height: calc(100% - 30px);
 	padding: 50px;
 	margin-bottom: 30px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .contact-info-item:after {
@@ -5440,6 +5448,9 @@ header.main-header .header-sticky.active {
 }
 
 @media only screen and (max-width: 767px) {
+	.navbar-brand {
+		width: 80px;
+	}
 	.hero {
 		background: url(../images/hero-mobile.jpeg) no-repeat center center/cover;
 	}
@@ -5450,7 +5461,12 @@ header.main-header .header-sticky.active {
 	.section-title h2 {
 		font-size: 26px;
 	}
-
+	.about-us-content .section-title h2 {
+		font-size: 26px;
+	}
+	.our-company-slider .company-logo img {
+		max-width: 100px;
+	}
 	.hero::before {
 		background: linear-gradient(
 			90deg,
@@ -5495,6 +5511,7 @@ header.main-header .header-sticky.active {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
 		font-size: 14px;
 	}
 
