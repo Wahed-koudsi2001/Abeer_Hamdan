@@ -1175,7 +1175,7 @@ header.main-header .header-sticky.active {
 	position: absolute;
 	right: 40px;
 	left: 40px;
-	bottom: 40px;
+	bottom: 50px;
 	transform: translateY(50px);
 	transition: all 0.4s ease-in-out;
 	z-index: 1;
