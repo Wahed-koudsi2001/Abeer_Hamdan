@@ -1116,6 +1116,7 @@ header.main-header .header-sticky.active {
 	border: 1px solid var(--dark-divider-color);
 	border-top-width: 0;
 	border-left-width: 0;
+	height: 100%;
 }
 
 .service-item:nth-of-type(-n + 4) {
