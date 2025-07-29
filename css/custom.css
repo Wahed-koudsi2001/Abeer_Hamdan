@@ -529,7 +529,7 @@ body {
 header.main-header {
 	position: fixed;
 	background-color: var(--white-color);
-	z-index: 100;
+	z-index: 99;
 	top: 0;
 	width: 100%;
 	transition: 0.3s linear;
@@ -572,7 +572,7 @@ header.main-header .header-sticky.active {
 .navbar-brand {
 	padding: 0;
 	margin: 0;
-	width: 80px;
+	width: 100px;
 }
 
 .main-menu .nav-menu-wrapper {
@@ -808,7 +808,7 @@ header.main-header .header-sticky.active {
 	background: url(../images/hero-bg.png) no-repeat center center/cover;
 	padding: 80px 0;
 	height: 100vh;
-	z-index: 999;
+	z-index: 100;
 }
 .page-header-z-2 {
 	z-index: 999;
@@ -907,7 +907,7 @@ header.main-header .header-sticky.active {
 }
 
 .hero-body .video-play-button:hover p {
-	color: var(--primary-color);
+	color: var(--accent-color);
 }
 
 .hero-body .video-play-button a {
@@ -924,7 +924,7 @@ header.main-header .header-sticky.active {
 }
 
 .hero-body .video-play-button:hover a {
-	border-color: var(--primary-color);
+	border-color: var(--accent-color);
 }
 
 .hero-body .video-play-button a img {
@@ -1175,7 +1175,7 @@ header.main-header .header-sticky.active {
 	position: absolute;
 	right: 40px;
 	left: 40px;
-	bottom: 50px;
+	bottom: 40px;
 	transform: translateY(50px);
 	transition: all 0.4s ease-in-out;
 	z-index: 1;
@@ -2337,14 +2337,9 @@ header.main-header .header-sticky.active {
 .page-header-service-3 {
 	background: url("../images/service-3.webp") no-repeat center center;
 }
-.page-header-services {
-	background: url("../images/services-bg.webp") no-repeat center center;
-}
-.page-header-blog {
-	background: url("../images/blog-bg.webp") no-repeat center center;
-}
-.page-header-contact {
-	background: url("../images/contact-bg.webp") no-repeat center center;
+.page-header-linear {
+	padding: 250px 0 118px 0;
+	background: linear-gradient(90deg, #b4924ad3 0%, #000000c9 100%);
 }
 .page-header::before {
 	content: "";
@@ -4449,7 +4444,9 @@ header.main-header .header-sticky.active {
 	color: var(--primary-color);
 	margin-bottom: 20px;
 }
-
+.page-video-gallery {
+	padding: 80px 0;
+}
 /************************************/
 /***      32. Responsive css      ***/
 /************************************/
@@ -4515,7 +4512,7 @@ header.main-header .header-sticky.active {
 	}
 
 	.hero {
-		padding: 100px 0;
+		padding: 50px 0;
 	}
 
 	.hero.hero-slider-layout .hero-slide {
@@ -4868,7 +4865,7 @@ header.main-header .header-sticky.active {
 	}
 
 	.page-header {
-		padding: 180px 0;
+		padding: 180px 0 70px;
 	}
 
 	.page-header-box h1 {
@@ -5449,7 +5446,7 @@ header.main-header .header-sticky.active {
 
 @media only screen and (max-width: 767px) {
 	.navbar-brand {
-		width: 60px;
+		width: 80px;
 	}
 	.hero {
 		background: url(../images/hero-mobile.jpeg) no-repeat center center/cover;

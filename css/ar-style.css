@@ -207,6 +207,10 @@ li {
 .video-gallery-image a::after {
     right: initial;
 }
+.hero-body .video-play-button a {
+    margin-right: 0;
+    margin-left: 10px;
+}
 @media only screen and (max-width: 991px) {
     .about-body-item .icon-box {
         margin-left: 10px;
@@ -278,7 +282,7 @@ li {
         margin-left: 0;
         right: 82px;
     }
-    .hero-footer ul li img{
+    .hero-footer ul li img {
         margin: 0 0 10px 0;
     }
 }
