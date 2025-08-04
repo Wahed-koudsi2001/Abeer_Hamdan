@@ -25655,7 +25655,6 @@ header.main-header .header-sticky.active {
     flex-wrap: wrap;
     align-items: center;
     gap: 30px 60px;
-    margin-bottom: -60px;
     z-index: 1;
 }
 
